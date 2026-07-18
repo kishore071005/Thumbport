@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #09090A;
+  --color-bg-card: #121214;
+  --color-bg-card-hover: #1A1A1E;
+  --color-accent-orange: #FF5A1F;
+  --color-accent-orange-light: #FF7A45;
+  --color-accent-orange-dim: rgba(255, 90, 31, 0.1);
+  --color-accent-amber: #F59E0B;
+  --color-border-dark: #1E1E22;
+  --color-border-light: #2A2A30;
+  --color-text-dim: #94A3B8;
+  --color-text-white: #F8FAFC;
+  
+  --font-display: 'Outfit', 'Inter', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-white);
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #09090A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1E1E22;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF5A1F;
+  }
+}
+
+/* Glassmorphism utility */
+.glass-nav {
+  background: rgba(9, 9, 10, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-card {
+  background: rgba(18, 18, 20, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+/* Custom shadow/glows */
+.orange-glow {
+  box-shadow: 0 0 40px -10px rgba(255, 90, 31, 0.15);
+}
+
+.orange-glow-hover:hover {
+  box-shadow: 0 0 50px -5px rgba(255, 90, 31, 0.3);
+}
+
+/* Diagonal stripe pattern for backgrounds */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.01) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+}
