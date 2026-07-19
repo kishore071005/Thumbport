@@ -11,6 +11,7 @@ import ytTutorial from '../assets/YOUTUBE TUTORIAL.jpg';
 import cw1 from '../assets/cw1.png';
 import cw22 from '../assets/cw22.png';
 import cw33 from '../assets/cw33.png';
+import cwr2 from '../assets/cwr2.png';
 
 export const projects: Project[] = [
   { id: '1', title: 'Anu Sharma', image: anuSharma },
@@ -24,4 +25,5 @@ export const projects: Project[] = [
   { id: '9', title: 'Case Study 1', image: cw1 },
   { id: '10', title: 'Case Study 2', image: cw22 },
   { id: '11', title: 'Case Study 3', image: cw33 },
+  { id: '12', title: 'Case Study 4', image: cwr2 },
 ];
