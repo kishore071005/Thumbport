@@ -13,19 +13,21 @@ import cw22 from '../assets/cw22.png';
 import cw33 from '../assets/cw33.png';
 import cwr2 from '../assets/cwr2.png';
 import toxic from '../assets/Toxic.png';
+import maxresdefault from '../assets/maxresdefault.jpg';
 
 export const projects: Project[] = [
-  { id: '1', title: 'Case Study 2', image: cw22 },
-  { id: '2', title: 'Case Study 3', image: cw33 },
-  { id: '3', title: 'Farmer Concept', image: farmer },
-  { id: '4', title: 'RGV Man', image: rgvMan },
-  { id: '5', title: 'Joshi', image: joshi },
-  { id: '6', title: 'Case Study 1', image: cw1 },
+  { id: '1', title: 'Case Study 1', image: cw1 },
+  { id: '2', title: 'Biceps Concept', image: biceps },
+  { id: '3', title: 'RGV Man', image: rgvMan },
+  { id: '4', title: 'Youtube Tutorial', image: ytTutorial },
+  { id: '5', title: 'Case Study 3', image: cw33 },
+  { id: '6', title: 'Toxic', image: toxic },
   { id: '7', title: 'New Concept', image: newOne },
-  { id: '8', title: 'Rawtalks Final', image: rawtalksFinal },
-  { id: '9', title: 'Case Study 4', image: cwr2 },
-  { id: '10', title: 'Biceps Concept', image: biceps },
-  { id: '11', title: 'Youtube Tutorial', image: ytTutorial },
-  { id: '12', title: 'Anu Sharma', image: anuSharma },
-  { id: '13', title: 'Toxic', image: toxic },
+  { id: '8', title: 'Case Study 2', image: cw22 },
+  { id: '9', title: 'Maxresdefault', image: maxresdefault },
+  { id: '10', title: 'Rawtalks Final', image: rawtalksFinal },
+  { id: '11', title: 'Case Study 4', image: cwr2 },
+  { id: '12', title: 'Farmer Concept', image: farmer },
+  { id: '13', title: 'Anu Sharma', image: anuSharma },
+  { id: '14', title: 'Joshi', image: joshi },
 ];
