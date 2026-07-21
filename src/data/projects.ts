@@ -14,6 +14,7 @@ import cw33 from '../assets/cw33.png';
 import cwr2 from '../assets/cwr2.png';
 import toxic from '../assets/Toxic.png';
 import maxresdefault from '../assets/maxresdefault.jpg';
+import ravi2 from '../assets/Ravi2.png';
 
 export const projects: Project[] = [
   { id: '1', title: 'Case Study 1', image: cw1 },
@@ -25,6 +26,7 @@ export const projects: Project[] = [
   { id: '7', title: 'New Concept', image: newOne },
   { id: '8', title: 'Case Study 2', image: cw22 },
   { id: '9', title: 'Maxresdefault', image: maxresdefault },
+  { id: '15', title: 'Ravi 2', image: ravi2 },
   { id: '10', title: 'Rawtalks Final', image: rawtalksFinal },
   { id: '11', title: 'Case Study 4', image: cwr2 },
   { id: '12', title: 'Farmer Concept', image: farmer },
